@@ -14,11 +14,37 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `Open CMD run Node server'
+# Task Management Application
 
-Copy the directory.
-Write : node server.js
+This is a basic task management application with a frontend and backend component. It allows you to create, view, and manage tasks.
 
-### 'Postman'
+## Features
 
-Use Postman to check the Api's status.
+- Add new tasks.
+- Edit existing tasks.
+- Change the status of tasks (to-do, in-progress, finished).
+- Delete tasks.
+- Filter tasks by status.
+
+## Technologies Used
+
+- **Frontend:** Built with React.
+- **Backend:** Created using Node.js and Express.js.
+- **Database:** No database is used; tasks are stored in memory on the server.
+- **Communication:** Frontend communicates with the backend using HTTP requests.
+
+## Getting Started
+
+1. Clone this repository.
+2. Navigate to the project directory.
+
+### Backend Setup
+
+3. In the `backend` directory, run the following commands:
+
+``
+# Install backend dependencies
+npm install
+
+# Start the backend server
+npm start
